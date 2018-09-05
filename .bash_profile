@@ -24,10 +24,11 @@ alias .3='cd ../../../'
 alias .4='cd ../../../../'
 alias .5='cd ../../../../../'
 alias .6='cd ../../../../../../'
-alias f='open -a Finder ./'                 # f:       Opens current directory in MacOS Finder
-alias home="cd ~"                           # home:    Go Home
-mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:     Makes new Dir and jumps inside
-trash () { command mv "$@" ~/.Trash ; }     # trash:   Moves a file to the MacOS trash
+alias f='open -a Finder ./'                 # f:        Opens current directory in MacOS Finder
+alias home="cd ~"                           # home:     Go Home
+alias obsidian="cd /Users/Elliott/Obsidian" # obsidian: Go to Obsidian folder
+mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:      Makes new Dir and jumps inside
+trash () { command mv "$@" ~/.Trash ; }     # trash:    Moves a file to the MacOS trash
 
 # Setup PROMPT_COMMAND, which gets run before each prompt is printed
 PROMPT_COMMAND="RET=$?;${PROMPT_COMMAND}"
