@@ -1,0 +1,57 @@
+# Don't track content of these folders
+Applications/
+Creative Cloud Files/
+Desktop/
+Documents/
+Downloads/
+Google Drive (wademiller2019@u.northwestern.edu)/
+Google Drive/
+Hotel_Content.json
+IMAG0616.jpg
+Library/
+Movies/
+Music/
+Obsidian/
+Pictures/
+Programming/
+Public/
+Ratings_df.pkl
+atom-notebook/
+git/
+item.csv
+nltk_data/
+scikit_learn_data/
+
+# Dot files and folders to ignore
+.CFUserTextEncoding
+.DS_Store
+.RData
+.Rhistory
+.Trash/
+.adobe/
+.anaconda/
+.android/
+.atom/
+.bash_history
+.bash_profile-anaconda.bak
+.bash_sessions/
+.cache/
+.canopy/
+.condarc
+.enstaller4rc
+.gitconfig
+.gradle/
+.idlerc/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.keras/
+.matplotlib/
+.oracle_jre_usage/
+.psql_history
+.python_history
+.python_history-52146.tmp
+.rstudio-desktop/
+.ssh/
+.subversion/
+.viminfo
