@@ -4,11 +4,6 @@ export PATH=/usr/local/bin:$PATH
 # export WORKON_HOME=$HOME/.virtualenvs
 # source /usr/local/bin/virtualenvwrapper.sh
 
-# user .bashrc
-if [ -f ~/.bashrc ]; then
-    source ~/.bashrc
-fi
-
 # add color
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
