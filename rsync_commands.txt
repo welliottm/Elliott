@@ -1,0 +1,9 @@
+# sync backup drive with primary drive, excluding all dot files
+rsync -av --exclude=".*" --delete /volumes/Primary\ 4TB/ /volumes/Backup\ 4TB
+
+# delete empty directories
+find . -type d -empty -delete
+
+-a = archive mode; equals -rlptgoD (no -H,-A,-X)
+-v = verbose, shows output in command line
+-n = perform a trial run 

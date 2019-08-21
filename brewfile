@@ -1,0 +1,6 @@
+brew install python
+
+brew cask install google-chrome
+brew cask install atom
+# Packages >>>
+# Highlight Selected
